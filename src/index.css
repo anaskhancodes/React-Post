@@ -1,0 +1,87 @@
+body {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+
+}
+
+.card {
+    width: 500px;
+    padding: 20px;
+    background-color: rgb(241, 241, 241);
+    border-radius: 0px;
+    margin-top: 30px;
+}
+
+.card header {
+    display: flex;
+    gap: 1rem;
+}
+
+.card header h1 {
+    font-size: 25px;
+}
+
+.card header img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    /* margin-bottom: 20px; */
+    border: 2px solid rgb(77, 77, 77);
+}
+
+.card header .head {
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card header .head .date {
+    margin-top: 6px;
+    font-size: 12px;
+}
+
+.card footer {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card footer button {
+    padding: 0.6rem;
+    border: 2px solid rgb(95, 95, 95);
+}
+
+.card footer button:hover {
+    background-color: rgba(211, 211, 211, 0.61);
+    /* color: white; */
+}
+
+@media only screen and (max-width: 550px) {
+    .card {
+        width: 320px;
+    }
+
+    p {
+        font-size: 10px;
+    }
+
+    .card header h1 {
+        font-size: 20px;
+        /* margin-top: 10px; */
+    }
+
+    .card header .head .date {
+        font-size: 11px;
+    }
+
+    .card header img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .card footer button {
+        padding: 4px;
+        font-size: 12px;
+    }
+}
