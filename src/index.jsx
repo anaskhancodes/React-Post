@@ -25,6 +25,9 @@ function Post(props) {
         <hr />
 
         <p>{props.text} </p>
+
+        <hr />
+
         <img src={bikeImg} alt="" />
 
         <footer>
